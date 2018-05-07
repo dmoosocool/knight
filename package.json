@@ -1,0 +1,13 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/register": "^7.0.0-beta.46",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "gulp": "^4.0.0",
+    "gulp-lich-include": "^1.0.5",
+    "gulp-nunjucks": "^4.0.0"
+  }
+}

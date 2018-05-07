@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <!-- 网页字符集 -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{% block title %}默认标题{% endblock %}</title>
+    {% block headerImport %}
+        {% include './import/header.njk' %}
+    {% endblock %}
+</head>
+
+<body class="{% block bodyClass%} {% endblock %}">
+
+{% block content %}
+{% endblock %}
+
+{% block footerImport %}
+    {% include './import/footer.njk' %}
+{% endblock %}
+</body>
+</html>
